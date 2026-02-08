@@ -254,3 +254,6 @@ terraform.rc
 # planout
 
 *.json
+
+# Parquet files
+*.parquet
