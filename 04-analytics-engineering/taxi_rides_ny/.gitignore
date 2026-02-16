@@ -1,0 +1,10 @@
+
+target/
+dbt_packages/
+logs/
+
+# Data directory
+data/
+
+# DuckDB database (regenerate with ingest script)
+*.duckdb

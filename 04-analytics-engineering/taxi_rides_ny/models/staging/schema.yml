@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_green_tripdata
+    description: "Staging model for NYC green taxi trip data from raw source"
+    columns:
+      - name: vendor_id
+        description: "Vendor ID"
+        tests:
+          - not_null
+      - name: pickup_datetime
+        description: "Pickup datetime"
+        tests:
+          - not_null
