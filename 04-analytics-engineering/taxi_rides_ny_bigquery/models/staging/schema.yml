@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: stg_green_tripdata
+    description: "Staging model for NYC green taxi trip data from raw source"
+    columns:
+      - name: vendor_id
+        description: "Vendor ID"
+        tests:
+          - not_null
+      - name: pickup_datetime
+        description: "Pickup datetime"
+        tests:
+          - not_null
+  - name: stg_fhv_tripdata
+    description: "Staging model for NYC FHV (For-Hire Vehicle) trip data; filters out null dispatching_base_num, renames to snake_case."
+    columns:
+      - name: dispatching_base_num
+        description: "Dispatching base license number"
+        tests:
+          - not_null
+      - name: pickup_location_id
+        description: "Pickup taxi zone location ID"
+      - name: dropoff_location_id
+        description: "Dropoff taxi zone location ID"
+      - name: pickup_datetime
+        description: "Pickup datetime"
+        tests:
+          - not_null
+      - name: dropoff_datetime
+        description: "Dropoff datetime"
