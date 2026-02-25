@@ -257,3 +257,12 @@ terraform.rc
 
 # Parquet files
 *.parquet
+.bruin.yml
+# Track Bruin config for the course pipeline (no secrets)
+!05-data-platforms/.bruin.yml
+logs/runs
+logs/*.log
+*.py[cod]
+logs/queries
+
+duckdb.db

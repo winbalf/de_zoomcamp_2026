@@ -1,0 +1,5 @@
+# Bruin (05-data-platforms)
+duckdb.db
+logs/runs
+logs/*.log
+logs/queries

@@ -19,3 +19,9 @@ The answers for Week 3 (Big Query - Data Warewhouse) are located in the `03-data
 ## Week 4 Answers
 
 The answers for Week 4 (Analytics Engineering with dbt) are located in the `04-analytics-engineering` folder. Specifically, the answers to all questions can be found in [04-analytics-engineering/taxi_rides_ny_bigquery/README.md](04-analytics-engineering/taxi_rides_ny_bigquery/README.md).
+
+---
+
+## Week 5 Answers
+
+The answers for Week 4 (Analytics Engineering with dbt) are located in the `05-data-platforms` folder. Specifically, the answers to all questions can be found in [05-data-platforms/README.md](05-data-platforms/README.md).
