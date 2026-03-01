@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dlt-zoomcamp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dlt[workspace]",
+    "marimo",
+    "ibis-framework[duckdb]",
+    "plotly",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["dlt_zoomcamp"]
