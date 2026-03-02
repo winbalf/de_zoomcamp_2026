@@ -24,4 +24,10 @@ The answers for Week 4 (Analytics Engineering with dbt) are located in the `04-a
 
 ## Week 5 Answers
 
-The answers for Week 4 (Analytics Engineering with dbt) are located in the `05-data-platforms` folder. Specifically, the answers to all questions can be found in [05-data-platforms/README.md](05-data-platforms/README.md).
+The answers for Week 5 (Data Platforms with Bruin) are located in the `05-data-platforms` folder. Specifically, the answers to all questions can be found in [05-data-platforms/README.md](05-data-platforms/README.md).
+
+---
+
+## NYC Taxi Pipeline Workshop Answers
+
+The answers for the NYC Taxi Pipeline workshop (dlt + DuckDB) are located in the `workshops/taxi-pipeline` folder. Specifically, the answers to all questions can be found in [workshops/taxi-pipeline/README.md](workshops/taxi-pipeline/README.md).
