@@ -1,0 +1,3 @@
+# Avoid "IOPub data rate exceeded" when Spark (or large output) runs in the notebook.
+# Use: jupyter notebook --config=code/jupyter_server_config.py ...
+c.ServerApp.iopub_data_rate_limit = 10_000_000.0  # 10 MB/s (default 1 MB/s)

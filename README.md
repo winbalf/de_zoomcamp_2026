@@ -31,3 +31,11 @@ The answers for Week 5 (Data Platforms with Bruin) are located in the `05-data-p
 ## NYC Taxi Pipeline Workshop Answers
 
 The answers for the NYC Taxi Pipeline workshop (dlt + DuckDB) are located in the `workshops/taxi-pipeline` folder. Specifically, the answers to all questions can be found in [workshops/taxi-pipeline/README.md](workshops/taxi-pipeline/README.md).
+
+---
+
+## Week 6 Batch Processing
+
+The answers for Week 6 (Batch Processing with Spark) are located in the `06-batch` folder. Specifically, the Spark homework solutions can be found in [06-batch/spark/homework/homework.ipynb](06-batch/spark/homework/homework.ipynb).
+
+---
